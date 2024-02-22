@@ -88,6 +88,7 @@ function SelectBasicExample() {
             ))}
           </Form.Select>
         </div>
+        <br />
         {showKabupatenForm && (
           <div className="select-label">Pilih Kab/kota
             <Form.Select className="form-select" aria-label="Default select example" value={selectedKabupaten} onChange={handleKabupatenChange}>
@@ -97,6 +98,7 @@ function SelectBasicExample() {
             </Form.Select>
           </div>
         )}
+        <br />
         {showKecamatanForm && (
           <div className="select-label">Pilih Kecamatan
             <Form.Select className="form-select" aria-label="Default select example" value={selectedKecamatan} onChange={handleKecamatanChange}>
@@ -106,6 +108,7 @@ function SelectBasicExample() {
             </Form.Select>
           </div>
         )}
+        <br />
         {showKelurahanForm && (
           <div className="select-label">Pilih Kelurahan
             <Form.Select className="form-select" aria-label="Default select example" value={selectedKelurahan} onChange={handleKelurahanChange}>
