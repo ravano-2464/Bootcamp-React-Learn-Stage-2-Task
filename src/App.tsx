@@ -81,6 +81,9 @@ function SelectBasicExample() {
   return (
     <div className="container">
       <div className="select-container">
+        <h2 style={{color: "#6c757d"}}>API STATIS</h2>
+        <h1 style={{color: "#17a2b8"}}>DATA WILAYAH INDONESIA</h1>
+        <br />
         <div className="select-label">Pilih Provinsi
           <Form.Select className="form-select" aria-label="Default select example" value={selectedProvince} onChange={handleProvinceChange}>
             {data.map(items => (
